@@ -1,0 +1,44 @@
+# Core
+import pandas as pd
+import numpy as np
+import re
+import string
+from collections import Counter
+
+# NLP preprocessing
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+
+# Sklearn - feature engineering
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+
+# Sklearn - modeling
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
+
+# Optional (visualization)
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+import nltk
+
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+pandas
+numpy
+scikit-learn
+nltk
+matplotlib
+seaborn
+
+
+uv pip install pandas numpy scikit-learn nltk matplotlib seaborn
+
+sentence-transformers
+faiss-cpu
+langchain
